@@ -175,6 +175,8 @@ Response:
    - Concurrent WebSocket connections
    - High-frequency score updates
 
+## SequnceDiagram
+
 ```mermaid
 sequenceDiagram
     participant Client
@@ -204,6 +206,8 @@ sequenceDiagram
     Client->>WebSocket Server: Subscribe to Updates
     WebSocket Server-->>Client: Current Leaderboard
 ```
+
+## Flowchart System
 
 ```mermaid
 flowchart TB
