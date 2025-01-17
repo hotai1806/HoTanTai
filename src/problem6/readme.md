@@ -125,7 +125,7 @@ Response:
 
 1. **Leaderboard Cache**
 
-   - Cache top 10 scores in Redis
+   - TODO with top 10 user
    - TTL: 1 minute
    - Update on score changes
 
@@ -215,7 +215,7 @@ flowchart TB
     Gateway[API Gateway]
     Auth[Auth Service]
     Score[Score Service]
-    Cache[(Redis Cache)]
+
     WS[WebSocket Server]
     DB[(Database)]
 
